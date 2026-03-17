@@ -19,7 +19,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Radheya26&label=Profile%20views&color=0e75b6&style=flat" alt="Radheya26" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Radheya26" alt="tony-stark12345" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Radheya26" alt="Radheya26" /></a> </p>
 
 - 🔭 I’m currently working on : **Jarvis**
 

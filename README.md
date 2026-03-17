@@ -12,7 +12,7 @@
 
 -->
 
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> , I'm Pritam Pramanik 👨‍💻</h1>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> , I'm Pritam 👨‍💻</h1>
 <h3 align="center"> Frontend developer | Python programmer 🐍 | Learning AI , Android Development | Have a little bit knowledge of C, C++ , PHP , Electronics |</h3>
 
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="200px"/></a> 
@@ -45,16 +45,60 @@
 <h3 align="left">Little About Me 👇 </h3>
 
 ```python
-class TonyStark():
+import random
+import cmath
+
+
+class Me:
     def __init__(self):
-       self.name = "Tony Stark"
-       self.realName = "Pritam Pramanik"
-       self.DOB = "26 Oct , 2005"
-       self.school = "Gorabazar I.C.Instituion"
-       self.intro ="I am 362 years old dangerous criminal .Police , CBI , ED , CID , FBI and their 14 generation are looking for me 🤣"
-       self.codingPlatform = "Android"
-           
- Tony = TonyStark()
+        self.alias = "Radheya 🔥"
+        self.version = "v3.14 (still irrational)"
+
+        self.fields = ["Physics", "Mathematics", "Programming", "Overthinking"]
+        self.languages = ["Literature", "Sarcasm", "Logic", "Passive Aggression"]
+        self.fav_constants = ["π", "h", "e", "i", "c"]
+
+        self.hobbies = [
+            "Debugging life",
+            "Thinking in loops",
+            "Ctrl+Z-ing regrets",
+            "Reading equations like poetry"
+        ]
+
+        self.status = self.superposition()
+        self.entropy_level = self.entropy("High")
+        self.identity = self.get_identity()
+
+    def superposition(self):
+        return random.choice([
+            "Focused",
+            "Distracted",
+            "Both simultaneously",
+            "Uncertain but computing..."
+        ])
+
+    def entropy(self, level):
+        return f"Entropy: {level} | Coffee approaching critical density."
+
+    def get_identity(self):
+        return f"Euler's Identity: e^(iπ) + 1 = {cmath.exp(cmath.pi * 1j) + 1:.0f}"
+
+    def __str__(self):
+        return f"""{self.alias}
+
+Fields: {', '.join(self.fields)}
+Languages: {', '.join(self.languages)}
+
+Status: {self.status}
+{self.entropy_level}
+{self.identity}
+
+→ Just a function trying to return purpose.
+"""
+
+
+me = Me()
+print(me)
 ```
 
 <h3>🔥 Streak Stats  </h3>
